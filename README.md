@@ -34,6 +34,18 @@ source manifest records both its original and published hashes. The selected
 deployment tests and the earlier policy fixture are not represented as files
 from that archive; the policy-identity check was added for this release.
 
+This release is distributed under the MIT License. The license covers the
+DebateGuard files in this repository and archive; dependencies remain under
+their respective licenses.
+
+## Citation
+
+The root `CITATION.cff` file lets GitHub generate a software citation for
+version 0.1.0. For the exact source snapshot, cite a repository commit
+permalink; add the paper's bibliographic details when available.
+
+Download the [DebateGuard core source archive](https://github.com/thunderzhu001/DebateGuard/blob/main/DebateGuard-core-source.zip).
+
 ## Installation and offline checks
 
 Python 3.11 or newer is required. From the repository root:
@@ -60,5 +72,6 @@ finalized-trace fields; its archived implementation includes benchmark-specific
 fields. The analytical risk certificate has separate explicit premises. Neither
 should be interpreted as an unconditional deployment-safety guarantee.
 
-For a version-specific citation, use a GitHub commit permalink for the snapshot
-alongside the paper's bibliographic details when they become available.
+For a version-specific citation, use a GitHub commit permalink for the source
+snapshot alongside the paper's bibliographic details when they become
+available.
